@@ -1,0 +1,19 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
+@import 'layout/grid';
+@import 'components/header';
+@import 'components/card';
+@import 'components/breadcrumb';
+@import 'components/footer';
+@import 'components/fiche-film';
+
+
+.films-populaires {
+    padding: 8rem 1.5rem 2rem 1.5rem;
+    background-color: var(--color-bg);
+  }
+.films-populaires__titre{
+    margin-bottom: 2rem;
+    font-size: 5rem;
+}

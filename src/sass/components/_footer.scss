@@ -1,0 +1,43 @@
+.pied-de-page {
+    background-color: var(--color-accent);
+    padding: 2rem 1.5rem;
+    color: var(--color-text);
+    margin-top: 10rem;
+  
+    &__contenu {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    &__texte {
+      font-family: var(--font-text);
+      font-size: 0.9rem;
+    }
+  
+    &__liste {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+  
+    &__lien {
+      color: var(--color-text);
+      text-decoration: none;
+      font-family: var(--font-title);
+      font-size: 0.9rem;
+      transition: color 0.2s ease;
+  
+      &:hover,
+      &:focus-visible {
+        color: var(--color-bg);
+      }
+    }
+  }
